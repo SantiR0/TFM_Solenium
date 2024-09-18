@@ -2,6 +2,9 @@
 
 This repository contains Python notebooks and utility scripts to implement a data ingestion pipeline for the Quoía project. The pipeline is based on the medallion architecture, following a Bronze, Silver, and Gold layered data structure in Databricks. The architecture leverages Delta Lake for efficient data storage and transformation, ensuring consistency, scalability, and optimal performance for analytics and machine learning models.
 
+![image](https://github.com/user-attachments/assets/114a70c1-9ee0-4953-9392-e741e3a4e154)
+
+
 # Project Structure
 ## Data Ingestion Notebooks:
 nb_QuoiaDBtoBronze.ipynb: Handles the ingestion of data from a PostgreSQL source database into the Bronze layer in Delta Lake.
