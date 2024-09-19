@@ -44,9 +44,3 @@ Run the nb_BronzeToSilver.ipynb notebook to transform the raw data and load it i
 
 Step 3: Gold Aggregation
 Finally, use the nb_SilverToGold.ipynb notebook to aggregate and enrich the data in the Gold layer. This data is now ready for analysis and machine learning models.
-
-## Utilities
-The nb_utils.ipynb notebook file contains essential helper functions used across all notebooks, such as configuration loading and Spark session management.
-
-## Testing
-The nb_utils_test.py file contains unit tests to validate the functionality of the ingestion and transformation process. Run these tests to ensure that the pipeline behaves as expected.
